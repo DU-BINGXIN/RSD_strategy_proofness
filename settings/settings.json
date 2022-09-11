@@ -1,0 +1,39 @@
+{
+    "global_settings": {
+        "round_nums": 1,
+        "applicant_nums": 100,
+        "message_level": 3
+    },
+    "Kakogawa_city":{
+        "algorithm": "RandomSerialDictatorship",
+        "hierarchy_structure":{
+            "level_venue":["市民会館"],
+            "level_days":["weekday","weekend"],
+            "level_dates":["Mon", "Tue","Wed","Thu","Fri","Sat", "Sun"],
+            "level_times":["am","pm"],
+            "level_hours":["9-10","10-11","11-12","13-14","14-15","15-16","16-17"]
+        },
+        "venues":{
+            "市民会館":["weekday","weekend"]
+        },
+        "days":{
+            "weekday":["Mon", "Tue","Wed","Thu","Fri"],
+            "weekend":["Sat", "Sun"]
+        },
+        "dates":{
+            "Mon":["am","pm"],
+            "Tue":["am","pm"],
+            "Wed":["am","pm"],
+            "Thu":["am","pm"],
+            "Fri":["am","pm"],
+            "Sat":["am","pm"],
+            "Sun":["am","pm"]                
+        },
+        "times":{
+            "am":["9-10","10-11","11-12"],
+            "pm":["13-14","14-15","15-16","16-17"]                
+        }
+    }
+}
+
+
